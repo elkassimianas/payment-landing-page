@@ -2,6 +2,94 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* write your CSS here */
+
+body {
+    background-color: #1E1E1E;
+}
+
+.header {
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.links {
+    border: 2px solid orange;
+    width: 50%;
+}
+
+.links-list {
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    list-style-type: none;
+}
+
+
+.page-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.hamburger-menu {
+    border: 2px solid green;
+    width: 15%;
+    padding-right: 30px;
+}
+
+.hamburger-menu-list {
+    
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    list-style-type: none;
+}
+
+.inscription {
+    border: rgb(26, 196, 185) solid 2px;
+    width: 35%;
+    /* padding-left: 20px; */
+}
+
+.inscription-list {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+}
+
+.log-sign {
+    background-color: #E9DCFF;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.log-sign-links {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    margin-left: 60px;
+}
+
+
+nav {
+    width: 100%;
+}
