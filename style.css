@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'poppins-bold', sans-serif;
 }
 
 /* write your CSS here */
@@ -10,6 +12,11 @@
 body {
     background-color: #1E1E1E;
 }
+
+
+/**********************************/
+/******** Styling Main Nav ********/
+/**********************************/
 
 .header {
     width: 100%;
@@ -92,4 +99,79 @@ body {
 
 nav {
     width: 100%;
+}
+
+/********************************/
+/******** App Information *******/
+/********************************/
+
+.app-information {
+    position: absolute;
+    border: 2px solid red;
+    left: 7%;
+    bottom: 28%;
+    width: 500px;
+    height: 250px;
+}
+
+.title-information {
+    color: #C0B6D2;
+    font-weight: normal;
+    font-size: medium;
+    letter-spacing: .2rem;
+    margin-bottom: 15px;
+}
+
+.service-information {
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.download-button {
+    margin-top: 25px;
+    border: 2px purple solid;
+    background-color: #E9DCFF;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/**********************************/
+/*********** PHONE VIEW ***********/
+/**********************************/
+
+.phone-view {
+    position: absolute;
+    border: 2px rgb(255, 0, 217) solid;
+    right: 10%;
+    bottom: 10%;
+    width: 450px;
+    height: 67%;
+}
+
+.mobile {
+    width: 258px;
+    border: yellow 3px solid;
+    height: 100%;
+    box-shadow: 10px 5px 5px red;
+    background-color: #1C272A;
+    border-radius: 20px;
+}
+
+.bottom-nav {
+    display: flex;
+    border: red 2px solid;
+    /* bottom: auto; */
+    height: 43px;;
+    margin-top: 171%;
+    width: 100%;
+    background-color: #2B2D3D;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
