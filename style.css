@@ -164,14 +164,38 @@ nav {
 
 .bottom-nav {
     display: flex;
-    border: red 2px solid;
+    /* border: red 2px solid; */
     /* bottom: auto; */
     height: 43px;;
     margin-top: 171%;
     width: 100%;
     background-color: #2B2D3D;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    list-style: none;
+}
+
+.fa-solid.fa-house.ic-house {
+    position: absolute;
+    color: white;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+
+.fa-solid.fa-plus.ic-plus {
+    position: absolute;
+    color: white;
+    width: 100%;
+    left: 25%;
+    margin: 12px;
+}
+
+.fa-regular.fa-user.ic-user {
+    position: absolute;
+    color: white;
+    width: 100%;
+    left: 50%;
+    margin-top: 12px;
 }
